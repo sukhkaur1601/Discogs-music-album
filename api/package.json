@@ -1,0 +1,25 @@
+{
+  "name": "practical_work",
+  "version": "1.0.0",
+  "description": "Practical work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Amandeep Sharma, Gursharan Kaur, Sukhwinder Kaur",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "disconnect": "^1.2.1",
+    "express": "^4.17.1",
+    "pg": "^7.17.1",
+    "react-youtube": "^7.9.0"
+  }
+}
