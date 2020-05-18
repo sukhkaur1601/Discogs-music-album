@@ -1,0 +1,78 @@
+#header {
+    margin: auto;
+    display: inline-flex;
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    padding: 5px;
+    font-size: 25px;
+    font-family: Brush Script MT;
+    font-style: cursive;
+    width: 100%;
+    justify-content: center;
+}
+
+#header p {
+    font-size: 22px;
+}
+
+#header p span {
+    font-size: 60px;
+}
+
+#header img {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: linear;
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotateY(0deg);
+    }
+    to {
+        -ms-transform: rotateY(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
